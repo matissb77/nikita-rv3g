@@ -1,0 +1,46 @@
+nav {
+    padding: 2em;
+}
+
+.nav-container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 3em;
+}
+
+ul:last-child {
+    margin-right: 0;
+}
+
+a {
+    border-bottom: 1px solid transparent;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    transition: 0.4s all ease;
+}
+
+#links a:hover {
+    border-bottom: 1px solid black;
+}
+
+.active-link {
+    border-bottom: 1px solid black;
+}
+
+.image-link {
+    width: 9%;
+}
+
+#logo-img {
+    width: 100%;
+}

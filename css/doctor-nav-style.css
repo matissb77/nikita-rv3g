@@ -1,0 +1,10 @@
+.nav-container {
+    justify-content: center;
+}
+a {
+    margin-right: 3em;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}

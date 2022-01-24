@@ -1,0 +1,155 @@
+html,
+body {
+    height: 100%;
+}
+
+main {
+    /* border: 1px solid black; */
+    height: 100%;
+}
+.profile-container {
+    padding: 2em;
+    margin-top: 2rem;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+
+.profile-container div {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.info-container {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-container div {
+    width: 100%;
+    flex-direction: column;
+}
+
+#user-img-container img {
+    border-radius: 100%;
+    width: 17%;
+}
+
+#user-img-container {
+    text-align: center;
+}
+
+#img-container {
+    text-align: center;
+}
+
+#img-container img {
+    width: 60%;
+}
+
+.info-container .main-info-container {
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    height: 30%;
+}
+
+.main-info-container div {
+    width: 30%;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+}
+#patient-form {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#patient-form .container {
+    text-align: left;
+    flex-direction: column;
+    padding: 4em;
+}
+
+#patient-form form {
+    overflow: auto;
+    height: 100%;
+    margin: 0 auto;
+    width: 55%;
+    border: 3px solid #2e3552;
+    border-radius: 20px;
+}
+
+#patient-form form .container label {
+    margin-top: 3rem;
+}
+
+#patient-form form .container .checkbox-label {
+    margin-top: 0;
+}
+
+.checkbox-div {
+    margin-top: 1em;
+}
+
+#patient-form form .container .reg-inp {
+    width: 30%;
+    padding: 0.3em;
+    border: 2px solid #2e3552;
+    border-radius: 5px;
+}
+
+#patient-form form .container .lrg {
+    width: 70%;
+}
+
+#patient-form form .container .tall {
+    height: 5%;
+}
+
+#patient-form form .container select {
+    padding: 0.3em;
+    border: 2px solid #2e3552;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#patient-form form .container .submit {
+    cursor: pointer;
+    padding: 0.5em;
+    color: white;
+    background-color: #ff9e55;
+    border: 2px solid #ff9e55;
+    border-radius: 5px;
+    width: 40%;
+    transition: 0.3s all ease;
+}
+
+#patient-form form .container .submit:hover {
+    box-shadow: 1px 1px 7px 4px #ff9e55;
+    background-color: #ff892f;
+    border: 2px solid #ff892f;
+}
+
+#date-time-container {
+    width: 70%;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+#patient-form img {
+    position: absolute;
+    bottom: -10%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+input[type="radio"] {
+    margin-top: 1em;
+}

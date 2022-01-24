@@ -1,0 +1,173 @@
+p {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 0.7em;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin-bottom: 0.7em;
+}
+
+#intro-section {
+    /* border: 1px solid black; */
+    text-align: center;
+
+    position: relative;
+    background: no-repeat url(../bildes/intro-hospital.jpg) 50% / 80%;
+}
+
+#intro-section-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 7em;
+}
+
+#intro-section img {
+    vertical-align: top;
+    width: 60%; /* max width */
+    opacity: 0; /* make it transparent */
+}
+
+#appointment-form {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4em;
+    text-align: center;
+}
+
+#appointment-form .container {
+    text-align: left;
+    flex-direction: column;
+    padding: 4em;
+}
+
+#appointment-form form {
+    margin: 0 auto;
+    width: 60%;
+    border: 3px solid #2e3552;
+    border-radius: 10px;
+}
+
+#appointment-form form .container label {
+    margin-top: 5rem;
+}
+
+#appointment-form form .container .reg-inp {
+    width: 30%;
+    padding: 0.3em;
+    border: 2px solid #2e3552;
+    border-radius: 5px;
+}
+
+#appointment-form form .container .lrg {
+    width: 70%;
+}
+
+#appointment-form form .container select {
+    padding: 0.3em;
+    border: 2px solid #2e3552;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#appointment-form form .container .submit {
+    cursor: pointer;
+    padding: 0.5em;
+    color: white;
+    background-color: #ff9e55;
+    border: 2px solid #ff9e55;
+    border-radius: 5px;
+    width: 40%;
+    transition: 0.3s all ease;
+}
+
+#appointment-form form .container .submit:hover {
+    box-shadow: 1px 1px 7px 4px #ff9e55;
+    background-color: #ff892f;
+    border: 2px solid #ff892f;
+}
+
+#date-time-container {
+    width: 70%;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.form {
+    /* margin: 0 auto; */
+    width: 40%;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+
+.form input {
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding-top: 24px;
+    border: none;
+    outline: none;
+}
+
+.form label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 2px solid grey;
+}
+
+.form label::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #2e3552;
+    transform: translateX(-150%);
+    transition: transform 0.3s ease;
+}
+
+.content-name {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 1rem;
+    color: #7a7a7a;
+}
+
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+    transform: translateX(0%);
+}
+
+#appointment-form #name-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+}
+
+#appointment-form img {
+    position: absolute;
+    bottom: -10%;
+}

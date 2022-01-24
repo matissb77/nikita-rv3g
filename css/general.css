@@ -1,0 +1,63 @@
+* {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+fieldset {
+    border: none;
+}
+
+.container {
+    display: flex;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 0.7em;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin-bottom: 0.7em;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s all ease;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

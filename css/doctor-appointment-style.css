@@ -1,0 +1,49 @@
+.nav-container {
+    justify-content: center;
+}
+a {
+    margin-right: 3em;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+#img-div img {
+    width: 45%;
+}
+
+.big-appoint-container {
+    margin-top: 3rem;
+}
+
+.appointment-item-container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.new-time-btn {
+    margin-top: 1em;
+    background-color: #ffd200;
+    border: 2px solid #ffd200;
+}
+
+.new-time-btn:hover {
+    box-shadow: 1px 1px 7px 4px #e2b901;
+    background-color: #e2b901;
+    border: 2px solid #e2b901;
+}
+
+.container .reg-inp {
+    width: 30%;
+    padding: 0.3em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container select {
+    padding: 0.3em;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+}

@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+}
+
+main {
+    height: 75%;
+}
+
+.doctor-section {
+    /* padding: 3em; */
+    height: 100%;
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+}
+
+.doctor-section div {
+    /* height: 100%; */
+    width: 50%;
+    /* border: 1px solid pink; */
+}
+
+.doctor-section .container {
+    overflow: auto;
+    /* overflow-x: auto; */
+    /* overflow-y: auto; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.doctor-section .doctor {
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.doctor img {
+    margin-bottom: 1rem;
+    width: 38%;
+    border-radius: 100%;
+}
+
+.doctor p {
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+#abs-img {
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
